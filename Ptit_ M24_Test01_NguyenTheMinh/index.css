@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    padding: 30px;
+    background-color: rgb(41, 27, 75);
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+}
+
+.in-container {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.chose-score {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.crileList {
+    display: flex;
+    gap: 10px;
+}
+.crile-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(218, 214, 214);
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rivew {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+#sendComment {
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#send {
+    width: 60px;
+    height: 30px;
+    background-color: aqua;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.comment {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.crile-2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 144, 144);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.renderFeedback {
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#show {
+    font-size: 16px;
+}
+
+.icon {
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.btn-selected{
+    background-color: pink;
+    color: #fff;
+}
+
+#commentList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
